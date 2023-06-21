@@ -11,7 +11,7 @@ router.get(`/project/:id`, (req, res)=>{
         project.id===id
     )
 
-    project?res.send(project):res.send(404);
+    project?res.send(project):res.sendStatus(404);
 
 });
 module.exports=router;
