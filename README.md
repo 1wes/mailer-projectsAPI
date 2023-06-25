@@ -44,9 +44,9 @@ npm start
 localhost:5300
 ```
 
-##This server is hosted on Render.com and can be accessed on [https://mail-projectsapi.onrender.com/](https://mail-projectsapi.onrender.com/)
+## This server is hosted on Render.com and can be accessed on [https://mail-projectsapi.onrender.com/](https://mail-projectsapi.onrender.com/)
 
-###Some of the endpoints you can hit include:
+### Some of the endpoints you can hit include:
 
 ```
 
@@ -54,6 +54,6 @@ https://mail-projectsapi.onrender.com/projects
 ```
 ```
 
-https://mail-projectsapi.onrender.com/project/include
+https://mail-projectsapi.onrender.com/project/id
 ```
 
