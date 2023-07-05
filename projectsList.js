@@ -32,17 +32,30 @@ projects=[{
     casestudyImg:'kaba.png'
 },{
     id:3,
-    name:'Tic-Tac-Toe',
-    description:`I built this popular game to learn and master several advanced React principles. 
-    The game has a minimalist look, with plans underway to enable online multi-players.`,
-    caseStudy:`Tic Tac Toe is  popular two-person game played across the world. Having already used React for over an year, I decided to re-learn the 
-    core library basics using this game. Currently, the game can only be played by two people in the same location. I plan to introduce a multiplayer, 
-    online feature soon`,
-    livelink:`https://1wes.github.io/`,
-    codebase:`https://github.com/1wes/1wes.github.io`,
+    name:'WriteMe.com',
+    description:`WriteMe is an international essay writing organization comprising of 10+ employees.
+    I am developing them a website for brand marketing and increased conversion rates.`,
+    caseStudy:`Case study to be added once development of this site is completed...`,
+    livelink:`https://writeme-br63.onrender.com/`,
+    codebase:`https://github.com/1wes/WriteMe`,
     techstack:['React.js', 'Javascript', 'HTML', 'CSS', 'Git'] ,
-    snippet:'tictactoe.png',
-    casestudyImg:'tictac.png'
-}];
+    snippet:'writeme.png',
+    casestudyImg:'writeme.png'
+}
+// ,{
+//     id:3,
+//     name:'Tic-Tac-Toe',
+//     description:`I built this popular game to learn and master several advanced React principles. 
+//     The game has a minimalist look, with plans underway to enable online multi-players.`,
+//     caseStudy:`Tic Tac Toe is  popular two-person game played across the world. Having already used React for over an year, I decided to re-learn the 
+//     core library basics using this game. Currently, the game can only be played by two people in the same location. I plan to introduce a multiplayer, 
+//     online feature soon`,
+//     livelink:`https://1wes.github.io/`,
+//     codebase:`https://github.com/1wes/1wes.github.io`,
+//     techstack:['React.js', 'Javascript', 'HTML', 'CSS', 'Git'] ,
+//     snippet:'tictactoe.png',
+//     casestudyImg:'tictac.png'
+// }
+];
 
 module.exports=projects;
