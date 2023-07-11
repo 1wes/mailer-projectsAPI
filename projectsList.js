@@ -11,7 +11,7 @@ projects=[{
     the links provided below `,
     livelink:`https://www.accuweights.com/`,
     codebase:`https://github.com/1wes/1wes.github.io`,
-    techstack:['Javascript', 'jQuery', 'HTML', 'CSS', 'Semantic UI', 'GitHub'],
+    techstack:[{id:1, name:"Javascript"},{id:2, name:"jQuery"},{id:3, name:"HTML"}, {id:4, name:"CSS"}, {id:5, name:"Semantic UI"}, {id:6, name:"Github"}],
     snippet:'accuweights.png',
     casestudyImg:'accuweigh.png'
 },{
@@ -27,7 +27,7 @@ projects=[{
     developers`,
     livelink:``,
     codebase:`https://github.com/1wes/KABU-shadow-student-portal`,
-    techstack:['React.js', 'Node.js', 'Express.js', 'HTML', 'CSS', 'Git'],
+    techstack:[{id:1, name:"React.js"},{id:2, name:"Node.js"}, {id:3, name:"Express.js"},{id:4, name:"HTML"}, {id:5, name:"CSS"}, {id:6, name:"Git"}],
     snippet:'kabu.png',
     casestudyImg:'kaba.png'
 },{
@@ -38,7 +38,7 @@ projects=[{
     caseStudy:`Case study to be added once development of this site is completed...`,
     livelink:`https://writeme-br63.onrender.com/`,
     codebase:`https://github.com/1wes/WriteMe`,
-    techstack:['React.js', 'Javascript', 'HTML', 'CSS', 'Git'] ,
+    techstack:[{id:1, name:"React.js"}, {id:2, name:"Javascript"}, {id:3, name:"HTML"}, {id:4, name:"CSS"},{id:5, name:"Git"}],
     snippet:'writeme.png',
     casestudyImg:'writeme.png'
 }
