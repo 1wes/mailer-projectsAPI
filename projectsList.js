@@ -38,7 +38,8 @@ projects=[{
     caseStudy:`Case study to be added once development of this site is completed...`,
     livelink:`https://writeme-br63.onrender.com/`,
     codebase:`https://github.com/1wes/WriteMe`,
-    techstack:[{id:1, name:"React.js"}, {id:2, name:"Javascript"}, {id:3, name:"HTML"}, {id:4, name:"CSS"},{id:5, name:"Git"}, {id:6, name:"ButterCMS"}],
+    techstack:[{id:1, name:"React.js"}, {id:2, name:"Javascript"}, {id:3, name:"HTML"}, {id:4, name:"CSS"},{id:5, name:"Git"}, {id:6, name:"ButterCMS"}
+    , {id:7, name:"MySQL"}],
     snippet:'writeme.png',
     casestudyImg:'writeme.png'
 }
