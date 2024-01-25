@@ -13,7 +13,7 @@ projects=[{
     codebase:`https://github.com/1wes/1wes.github.io`,
     techstack:[{id:1, name:"Javascript"},{id:2, name:"jQuery"},{id:3, name:"HTML"}, {id:4, name:"CSS"}, {id:5, name:"Semantic UI"}, {id:6, name:"Github"}],
     snippet:'accuweights.png',
-    casestudyImg:'accuweigh.png'
+    casestudyImg:'accuweigh'
 },{
     id:2,
     name:'Replica KABU Student Portal',
@@ -29,7 +29,7 @@ projects=[{
     codebase:`https://github.com/1wes/KABU-shadow-student-portal`,
     techstack:[{id:1, name:"React.js"},{id:2, name:"Node.js"}, {id:3, name:"Express.js"},{id:4, name:"HTML"}, {id:5, name:"CSS"}, {id:6, name:"Git"}],
     snippet:'kabu.png',
-    casestudyImg:'kaba.png'
+    casestudyImg:'kaba'
 },{
     id:3,
     name:'WriteMe.com',
@@ -41,7 +41,7 @@ projects=[{
     techstack:[{id:1, name:"React.js"}, {id:2, name:"Javascript"}, {id:3, name:"HTML"}, {id:4, name:"CSS"},{id:5, name:"Git"}, {id:6, name:"ButterCMS"}
     , {id:7, name:"MySQL"}],
     snippet:'writeme.png',
-    casestudyImg:'writeme.png'
+    casestudyImg:'writeme'
 }
 // ,{
 //     id:3,
