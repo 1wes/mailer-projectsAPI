@@ -22,10 +22,10 @@ transporter.verify(err=>{
 
 router.post("/sendMail", (req, res)=>{
 
-    let {sender, email, message}=req.body;
+    let {subject, email, message}=req.body;
 
     let mailOptions={
-        from:sender,
+        from:subject,
         to:myEmail,
         subject:`New Message From Portfolio Contact Form`,
         text:`Name:${sender} \n Email: ${email} \n Message: ${message}`
