@@ -28,7 +28,7 @@ router.post("/sendMail", (req, res)=>{
         from:subject,
         to:myEmail,
         subject:`New Message From Portfolio Contact Form`,
-        text:`Name:${sender} \n Email: ${email} \n Message: ${message}`
+        text:`Subject:${subject} \n Email: ${email} \n Message: ${message}`
     }
 
     transporter.sendMail(mailOptions, err=>{
