@@ -44,7 +44,7 @@ router.post("/pithone-mail", (req, res) => {
             console.log("message sent", info.messageId)
             res.sendStatus(200);
         }
-    })
+    });
 });
 
 module.exports = router;
