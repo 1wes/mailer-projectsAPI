@@ -20,7 +20,7 @@ transporter.verify(err=>{
     }
 });
 
-router.post("/sendMail", (req, res)=>{
+router.post("/sendMail", (req, res) => {
 
     let {subject, email, message}=req.body;
 
