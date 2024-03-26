@@ -1,12 +1,12 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const router = express.Router();
-const { pithoneEmail, pithonePassword, host } = require('./env-config');
+const { pithoneEmail, pithonePassword, host, mailPort } = require('./env-config');
 
 const transporter = nodemailer.createTransport({
     host: host,
-    port: 465,
-    secure: true,
+    port: mailPort,
+    secure: false,
     auth: {
         user: pithoneEmail,
         pass: pithonePassword
