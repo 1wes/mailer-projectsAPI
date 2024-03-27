@@ -10,7 +10,7 @@ const pithoneMail = require('./pithone-mail');
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cors({
-    origin:["http://localhost:5173", "https://pithone-international.onrender.com", "https://www.pithone.co.ke", "https://1wes.github.io", "https://okemwawes.onrender.com"]
+    origin:["http://localhost:5173", "https://pithone-international.onrender.com", "https://pithone.co.ke", "https://1wes.github.io", "https://okemwawes.onrender.com"]
 }));
 
 app.use("/", sendMail);
