@@ -39,6 +39,7 @@ router.post("/pithone-mail", (req, res) => {
     transporter.sendMail(mailOptions, (error, info) => {
         
         if (error) {
+            console.log(error);
             res.sendStatus(503);
         } else {
             console.log("message sent", info.messageId)
