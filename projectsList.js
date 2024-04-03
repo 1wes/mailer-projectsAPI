@@ -43,20 +43,6 @@ projects=[{
     snippet:'writeme.png',
     casestudyImg:'writeme'
 }
-// ,{
-//     id:3,
-//     name:'Tic-Tac-Toe',
-//     description:`I built this popular game to learn and master several advanced React principles. 
-//     The game has a minimalist look, with plans underway to enable online multi-players.`,
-//     caseStudy:`Tic Tac Toe is  popular two-person game played across the world. Having already used React for over an year, I decided to re-learn the 
-//     core library basics using this game. Currently, the game can only be played by two people in the same location. I plan to introduce a multiplayer, 
-//     online feature soon`,
-//     livelink:`https://1wes.github.io/`,
-//     codebase:`https://github.com/1wes/1wes.github.io`,
-//     techstack:['React.js', 'Javascript', 'HTML', 'CSS', 'Git'] ,
-//     snippet:'tictactoe.png',
-//     casestudyImg:'tictac.png'
-// }
 ];
 
 module.exports=projects;
