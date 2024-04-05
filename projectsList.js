@@ -1,21 +1,33 @@
 
 projects=[{
     id:1,
-    name:'Accuweights',
-    description:`Accuweights is a renowned technical services provider that caters for various industrial requisites 
-    such as repair and calibration of measuring equipment. I revamped their website to give it a more modern look and feel.`,
-    caseStudy:`The Accurate Weigtech company website was developed over a decade ago. Since then, newer tools, design principles, and UX guidelines
-    had hit the market. Consequently, it was necessary for the website to have a newer and more modern look and feel to help the company maintain an online presence
-    and retain its clients. I helped redesign the website, adding a few more features it lacked before, such as the map indicating the exact location of the company
-    premises. The new user interface was inspired by design ideas from other websites in the same industry as my client's. Feel free to check out the project via 
-    the links provided below `,
-    livelink:`https://www.accuweights.com/`,
-    codebase:`https://github.com/1wes/1wes.github.io`,
-    techstack:[{id:1, name:"Javascript"},{id:2, name:"jQuery"},{id:3, name:"HTML"}, {id:4, name:"CSS"}, {id:5, name:"Semantic UI"}, {id:6, name:"Github"}],
-    snippet:'accuweights.png',
-    casestudyImg:'accuweigh'
-},{
+    name:'Pithone International',
+    description:`Pithone international is an international travels and tours, education, and recruitment firm based in Nairobi.  
+    I developed their website that provides propspective clients with necessary information about their services.`,
+    caseStudy: `The Pithone static web application was developed using React, HTML, and CSS due to its simple nature. CI/CD was implemented using
+    Github Actions to create a pipeline that enabled continous linting, testing, and deployment. Potential clients can reach out to the firm using a contact
+    form and other communication links provided within the site`,
+    livelink:`https://www.pithone.co.ke/`,
+    codebase:`https://github.com/1wes/pithone-international`,
+    techstack:[{id:1, name:"React"},{id:2, name:"HTML"},{id:3, name:"CSS"}, {id:4, name:"Github Actions"}, {id:5, name:"Material UI"}, {id:6, name:"Github"}],
+    snippet:'pithone.png',
+    casestudyImg:'pithone'
+},
+{
     id:2,
+    name:'WriteMe.com',
+    description:`WriteMe is an international essay writing organization comprising of 10+ employees.
+    I am developing them a web application that connects essay writing clients with their experts.`,
+    caseStudy:`Case study to be added once development of this site is completed...`,
+    livelink:`https://writeme-br63.onrender.com/`,
+    codebase:`https://github.com/1wes/WriteMe`,
+    techstack:[{id:1, name:"React.js"}, {id:2, name:"Javascript"}, {id:3, name:"HTML"}, {id:4, name:"CSS"},{id:5, name:"Git"}, {id:6, name:"ButterCMS"}
+    , {id:7, name:"MySQL"}],
+    snippet:'writeme.png',
+    casestudyImg:'writeme'
+},
+{
+    id:3,
     name:'Replica KABU Student Portal',
     description:`I fully replicated the Kabarak University student portal. The front-end is entirely similar to the actual portal,
      while I used the student flow within the system to try and build the backend.`,
@@ -30,18 +42,6 @@ projects=[{
     techstack:[{id:1, name:"React.js"},{id:2, name:"Node.js"}, {id:3, name:"Express.js"},{id:4, name:"HTML"}, {id:5, name:"CSS"}, {id:6, name:"Git"}],
     snippet:'kabu.png',
     casestudyImg:'kaba'
-},{
-    id:3,
-    name:'WriteMe.com',
-    description:`WriteMe is an international essay writing organization comprising of 10+ employees.
-    I am developing them a website for brand marketing and increased conversion rates.`,
-    caseStudy:`Case study to be added once development of this site is completed...`,
-    livelink:`https://writeme-br63.onrender.com/`,
-    codebase:`https://github.com/1wes/WriteMe`,
-    techstack:[{id:1, name:"React.js"}, {id:2, name:"Javascript"}, {id:3, name:"HTML"}, {id:4, name:"CSS"},{id:5, name:"Git"}, {id:6, name:"ButterCMS"}
-    , {id:7, name:"MySQL"}],
-    snippet:'writeme.png',
-    casestudyImg:'writeme'
 }
 ];
 
